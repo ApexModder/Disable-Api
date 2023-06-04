@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="GNU General Public License v3.0"
+issueTrackerURL="https://discord.apexstudios.dev/"
+
+[[mods]]
+	modId="disableapi"
+	version="${file.jarVersion}"
+	displayName="DisableApi"
+	credits="Apex - Programming"
+	authors="ApexStudios"
+	description="DisableApi"
+	displayTest="MATCH_VERSION"
+
+[[dependencies.disableapi]]
+	modId="forge"
+	mandatory=true
+	versionRange="[45.0.0,46.0.0)"
+	ordering="AFTER"
+	side="BOTH"
+[[dependencies.disableapi]]
+	modId="minecraft"
+	mandatory=true
+	versionRange="[1.19.4,1.20)"
+	ordering="AFTER"
+	side="BOTH"

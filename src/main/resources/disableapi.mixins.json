@@ -1,0 +1,21 @@
+{
+    "required": true,
+    "package": "xyz.apex.forge.disableapi.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "refmap": "disableapi.refmap.json",
+    "mixins": [
+        "InvokerSpawnEggItem",
+        "MixinBlockBehaviour",
+        "MixinBlockProperties",
+        "MixinEntityType",
+        "MixinEntityTypeBuilder",
+        "MixinItem",
+        "MixinItemProperties",
+        "MixinMenuType"
+    ],
+    "client": [
+        "client.MixinClientPacketListener"
+    ],
+    "server": [],
+    "minVersion": "0.8.4"
+}
